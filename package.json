@@ -1,0 +1,41 @@
+{
+  "name": "rugpull",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy_test": "npx hardhat test",
+    "deploy_fantomtest": "npx hardhat run --network fantomtestnet scripts/deploy.js",
+    "deploy_bsctest": "npx hardhat run --network bsctestnet scripts/deploy.js",
+    "deploy_ganache": "npx hardhat run --network ganache scripts/deploy.js",
+    "deploy_local": "npx hardhat run --network localhost scripts/deploy.js",
+    "deploy_icicb": "npx hardhat run --network icicb scripts/deploy.js",
+    "deploy_icicb_test": "npx hardhat run --network icicbtest scripts/deploy.js",
+    "deploy_rinkby_test": "npx hardhat run --network rinkeby scripts/deploy.js",
+    "deploy": "npx hardhat run --network bsc scripts/deploy.js",
+    "deploy_rinkby_bnbstaker": "npx hardhat run --network rinkeby scripts/depositbnbstaker.js",
+    "deploy_presale": "npx hardhat run --network bsc scripts/presale.js",
+    "deploy_kovan": "npx hardhat run --network kovan scripts/arbitrage.js",
+    "deploy_bsc": "npx hardhat run --network bsc scripts/arbitrage.js" ,
+    "withdraw_bsc": "npx hardhat run --network bsc scripts/withdraw.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "hardhat-deploy": "^0.10.5",
+    "mocha": "^9.2.1"
+  }
+}

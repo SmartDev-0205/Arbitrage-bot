@@ -1,0 +1,359 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\Work\\Lucas\\rugpull\\contracts\\bnbStaker.sol": {
+      "lastModificationDate": 1648626100197,
+      "contentHash": "bb972d712889ddb044cce818f2791e44",
+      "sourceName": "contracts/bnbStaker.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8"
+      ],
+      "artifacts": [
+        "BNBStaker",
+        "Claimable",
+        "Context",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "E:\\Work\\Lucas\\rugpull\\contracts\\ERC20.sol": {
+      "lastModificationDate": 1647258090702,
+      "contentHash": "b98cb472a6cd5f03085c455544b71712",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8"
+      ],
+      "artifacts": [
+        "Context",
+        "ERC20",
+        "Ownable",
+        "SafeMath"
+      ]
+    },
+    "E:\\Work\\Lucas\\rugpull\\contracts\\presale.sol": {
+      "lastModificationDate": 1651985790296,
+      "contentHash": "b77782f5fb0ea1640046699b4a9bf032",
+      "sourceName": "contracts/presale.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8"
+      ],
+      "artifacts": [
+        "Claimable",
+        "Context",
+        "IERC20",
+        "Ownable",
+        "Presale"
+      ]
+    },
+    "E:\\Work\\Lucas\\rugpull\\contracts\\arbitrage.sol": {
+      "lastModificationDate": 1652344774959,
+      "contentHash": "90622e285f6eae3e2fe50c88fe53437e",
+      "sourceName": "contracts/arbitrage.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IERC20",
+        "IUniswapV2Router01",
+        "IUniswapV2Router02",
+        "SimpleArbitrage"
+      ]
+    },
+    "E:\\Work\\Arbitrage bot\\arebitrage\\contracts\\arbitrage.sol": {
+      "lastModificationDate": 1652764158594,
+      "contentHash": "8fc8f1da3f4d07f2625b33b906d42fba",
+      "sourceName": "contracts/arbitrage.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Router02.sol",
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "SimpleArbitrage"
+      ]
+    },
+    "E:\\Work\\Arbitrage bot\\arebitrage\\contracts\\interfaces\\IUniswapV2Router02.sol": {
+      "lastModificationDate": 1652671288240,
+      "contentHash": "839a2079dca67c724d734f68811e75e4",
+      "sourceName": "contracts/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01",
+        "IUniswapV2Router02"
+      ]
+    },
+    "E:\\Work\\Arbitrage bot\\arebitrage\\contracts\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1652671280148,
+      "contentHash": "c6c404f6c1b630ae61d1f2a94405e5b6",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "E:\\Work\\Arbitrage bot\\arebitrage\\contracts\\interfaces\\IBakerySwapRouter.sol": {
+      "lastModificationDate": 1652671274187,
+      "contentHash": "930c68b84db9b96021826728d0163785",
+      "sourceName": "contracts/interfaces/IBakerySwapRouter.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IBakerySwapRouter"
+      ]
+    }
+  }
+}
